@@ -108,7 +108,7 @@ import "../styles/global.css";
 						<img
 							src="/notification.png"
 							alt="Beispiel Push-Benachrichtigung"
-							class="absolute top-full left-1/2 mt-6 w-[32rem] max-w-none -translate-x-1/2 rotate-2 rounded-xl md:mt-8 md:w-[36rem]"
+							class="absolute top-full left-1/2 mt-6 w-80 max-w-[90vw] -translate-x-1/2 rotate-2 rounded-xl md:mt-8 md:w-[32rem] lg:w-[36rem]"
 						/>
 					</div>
 				</div>
@@ -116,7 +116,7 @@ import "../styles/global.css";
 		</header>
 
 		<!-- Features --------------------------------------------------------------->
-		<section id="features" class="mx-auto max-w-5xl px-6 py-24">
+		<section id="features" class="mx-auto max-w-5xl px-6 py-32 mt-16 md:mt-24">
 			<h2 data-i18n="featuresTitle" class="mb-12 text-center text-3xl font-bold md:text-4xl">
 				What Bummeln does for you
 			</h2>
@@ -204,23 +204,6 @@ import "../styles/global.css";
 			</div>
 		</section>
 
-		<!-- Price ------------------------------------------------------------------>
-		<section
-			id="preis"
-			class="bg-brand-pink/10 py-24 text-center backdrop-blur-sm reveal"
-		>
-			<h2 data-i18n="priceTitle" class="text-4xl font-extrabold">Pay once, stroll forever</h2>
-			<p data-i18n="priceCopy" class="mt-4 text-lg">
-				Bummeln costs a one-time <span class="font-semibold">€1.99</span>. No subscriptions, no hidden fees.
-			</p>
-			<!-- TODO: Replace placeholder ID with the real App Store URL once available -->
-			<a
-				href="https://apps.apple.com/app/bummeln/idXXXXXXXX"
-				class="mt-8 inline-block rounded-full bg-brand-blue px-10 py-5 text-xl font-bold text-white shadow-lg transition hover:scale-105 hover:shadow-xl"
-				data-i18n="priceBtn">Get it on the App Store</a
-			>
-		</section>
-
 		<!-- Video ------------------------------------------------------------------>
 		<section class="mx-auto max-w-5xl px-6 py-24">
 			<div class="flex flex-col items-center gap-12 md:flex-row md:justify-center">
@@ -243,6 +226,23 @@ import "../styles/global.css";
 					</p>
 				</div>
 			</div>
+		</section>
+
+		<!-- Price ------------------------------------------------------------------>
+		<section
+			id="preis"
+			class="bg-brand-pink/10 py-24 text-center backdrop-blur-sm reveal"
+		>
+			<h2 data-i18n="priceTitle" class="text-4xl font-extrabold">Pay once, stroll forever</h2>
+			<p data-i18n="priceCopy" class="mt-4 text-lg">
+				Bummeln costs a one-time <span class="font-semibold">€1.99</span>. No subscriptions, no hidden fees.
+			</p>
+			<!-- TODO: Replace placeholder ID with the real App Store URL once available -->
+			<a
+				href="https://apps.apple.com/app/bummeln/idXXXXXXXX"
+				class="mt-8 inline-block rounded-full bg-brand-blue px-10 py-5 text-xl font-bold text-white shadow-lg transition hover:scale-105 hover:shadow-xl"
+				data-i18n="priceBtn">Get it on the App Store</a
+			>
 		</section>
 
 		<!-- Footer ----------------------------------------------------------------->
